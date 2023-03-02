@@ -1,0 +1,155 @@
+[
+    {
+      "Boy Age": "3",
+      "Morocco": "Maternelle",
+      "France": "Maternelle",
+      "USA": "Pre-K",
+      "Egypt": "Nursery",
+      "Germany": "Kindergarten",
+      "United Kingdom": "Reception"
+    },
+    {
+      "Boy Age": "4",
+      "Morocco": "Maternelle",
+      "France": "Maternelle",
+      "USA": "Pre-K",
+      "Egypt": "KG1",
+      "Germany": "Kindergarten",
+      "United Kingdom": "Reception"
+    },
+    {
+      "Boy Age": "5",
+      "Morocco": "CP",
+      "France": "CP",
+      "USA": "Kindergarten",
+      "Egypt": "KG2",
+      "Germany": "Grundschule 1",
+      "United Kingdom": "Year 1"
+    },
+    {
+      "Boy Age": "6",
+      "Morocco": "CE1",
+      "France": "CE1",
+      "USA": "1st grade",
+      "Egypt": "Primary 1",
+      "Germany": "Grundschule 2",
+      "United Kingdom": "Year 2"
+    },
+    {
+      "Boy Age": "7",
+      "Morocco": "CE2",
+      "France": "CE2",
+      "USA": "2nd grade",
+      "Egypt": "Primary 2",
+      "Germany": "Grundschule 3",
+      "United Kingdom": "Year 3"
+    },
+    {
+      "Boy Age": "8",
+      "Morocco": "CM1",
+      "France": "CM1",
+      "USA": "3rd grade",
+      "Egypt": "Primary 3",
+      "Germany": "Grundschule 4",
+      "United Kingdom": "Year 4"
+    },
+    {
+      "Boy Age": "9",
+      "Morocco": "CM2",
+      "France": "CM2",
+      "USA": "4th grade",
+      "Egypt": "Primary 4",
+      "Germany": "Grundschule 5",
+      "United Kingdom": "Year 5"
+    },
+    {
+      "Boy Age": "10",
+      "Morocco": "Collège (6ème)",
+      "France": "6ème",
+      "USA": "5th grade",
+      "Egypt": "Prep School",
+      "Germany": "Gymnasium 6",
+      "United Kingdom": "Year 6"
+    },
+    {
+      "Boy Age": "11",
+      "Morocco": "Collège (5ème)",
+      "France": "5ème",
+      "USA": "6th grade",
+      "Egypt": "First Prep Year",
+      "Germany": "Gymnasium 7",
+      "United Kingdom": "Year 7"
+    },
+    {
+      "Boy Age": "12",
+      "Morocco": "Collège (4ème)",
+      "France": "4ème",
+      "USA": "7th grade",
+      "Egypt": "Second Prep Year",
+      "Germany": "Gymnasium 8",
+      "United Kingdom": "Year 8"
+    },
+    {
+      "Boy Age": "13",
+      "Morocco": "Collège (3ème)",
+      "France": "3ème",
+      "USA": "8th grade",
+      "Egypt": "Third Prep Year",
+      "Germany": "Gymnasium 9",
+      "United Kingdom": "Year 9"
+    },
+    {
+      "Boy Age": "14",
+      "Morocco": "Seconde",
+      "France": "2nde",
+      "USA": "9th grade",
+      "Egypt": "Secondary 1",
+      "Germany": "Gymnasium 10",
+      "United Kingdom": "Year 10"
+    },
+    {
+      "Boy Age": "15",
+      "Morocco": "Première (L/S/ES)",
+      "France": "1ère (L/S/ES)",
+      "USA": "10th grade",
+      "Egypt": "Secondary 2",
+      "Germany": "Gymnasium 11",
+      "United Kingdom": "Year 11"
+    },
+    {
+      "Boy Age": "16",
+      "Morocco": "Terminale (L/S/ES)",
+      "France": "Terminale (L/S/ES)",
+      "USA": "11th grade (Junior)",
+      "Egypt": "Secondary 3 (Grade 9)",
+      "Germany": "Gymnasium 12",
+      "United Kingdom": "Year 12 (Lower 6th)"
+    },
+    {
+      "Boy Age": "17",
+      "Morocco": "",
+      "France": "",
+      "USA": "12th grade (Senior)",
+      "Egypt": "Secondary 4 (Grade 10)",
+      "Germany": "",
+      "United Kingdom": "Year 13 (Upper 6th)"
+    },
+    {
+      "Boy Age": "18-22",
+      "Morocco": "Université / Grande École",
+      "France": "Université / Grande École",
+      "USA": "College / University",
+      "Egypt": "University",
+      "Germany": "Universität",
+      "United Kingdom": "University"
+    },
+    {
+      "Boy Age": "23-25",
+      "Morocco": "",
+      "France": "",
+      "USA": "University",
+      "Egypt": "",
+      "Germany": "",
+      "United Kingdom": "University"
+    }
+   ]

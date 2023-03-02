@@ -17,10 +17,10 @@ app.get("/employees", (req, res) => {
 });
 
 // READ one employee by matricule
-app.get("/employees/:matricule", (req, res) => {
-  const matricule = req.params.matricule;
+app.get("/employees/:id", (req, res) => {
+  const employeeID = parseInt(req.params.id);
   const employeesData = getEmployeesData();
-  const employee = employeesData.find((e) => e.matricule === matricule);
+  const employee = employeesData.find((employees) => employees.matricule === employeeID);
   if (employee) {
     res.json(employee);
   } else {
@@ -38,10 +38,12 @@ app.post("/employees", (req, res) => {
 });
 
 // UPDATE an existing employee
-app.put("/employees/:matricule", (req, res) => {
-  const matricule = req.params.matricule;
+app.put("/employees/:id", (req, res) => {
+  const employeeID = parseInt(req.params.id);
   const employeesData = getEmployeesData();
-  const employeeIndex = employeesData.findIndex((e) => e.matricule === matricule);
+  const employeeIndex = employeesData.findIndex(
+    (employees) => employees.id === employeeID
+  );
   if (employeeIndex >= 0) {
     const updatedEmployee = { ...employeesData[employeeIndex], ...req.body };
     employeesData[employeeIndex] = updatedEmployee;
@@ -53,10 +55,13 @@ app.put("/employees/:matricule", (req, res) => {
 });
 
 // DELETE an employee
-app.delete("/employees/:matricule", (req, res) => {
-  const matricule = req.params.matricule;
+app.delete("/employees/:id", (req, res) => {
+  const employeeID = parseInt(req.params.id);
+  // console.log(`Trying Delete Employee ID : ${employeeID}`)
   const employeesData = getEmployeesData();
-  const employeeIndex = employeesData.findIndex((e) => e.matricule === matricule);
+  const employeeIndex = employeesData.findIndex(
+    (employee) => employee.id === employeeID
+  );
   if (employeeIndex >= 0) {
     employeesData.splice(employeeIndex, 1);
     saveEmployeesData(employeesData);
