@@ -1,0 +1,18 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+
+# Compiled binary addons
+build/Release/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db

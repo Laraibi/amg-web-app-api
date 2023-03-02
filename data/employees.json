@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "matricule": "EMP-001",
+        "fullName": "John Doe"
+    },
+    {
+        "id": 2,
+        "matricule": "EMP-002",
+        "fullName": "Jane Smith"
+    }
+]
