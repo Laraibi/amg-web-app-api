@@ -1,12 +1,22 @@
 [
-    {
-        "id": 1,
-        "matricule": "EMP-001",
-        "fullName": "John Doe"
-    },
-    {
-        "id": 2,
-        "matricule": "EMP-002",
-        "fullName": "Jane Smith"
-    }
+  {
+    "id": 1,
+    "matricule": "EMP-001",
+    "fullName": "John Doe"
+  },
+  {
+    "id": 2,
+    "matricule": "EMP-002",
+    "fullName": "Jane Smith"
+  },
+  {
+    "id":3,
+    "matricule": "EMP-002",
+    "fullName": "hicham ali"
+  },
+  {
+    "id":4,
+    "matricule": "EMP-005",
+    "fullName": "laraibi rayan"
+  }
 ]
